@@ -1,0 +1,16 @@
+main{
+    section{
+           div{
+              div{
+                 
+                    .effect {
+                        transition: transform 0.3s ease;
+                      }
+                      .effect:hover {
+                        transform: scale(1.05);
+                      }
+
+                }
+            }
+        }
+    }

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+main section div div .effect {
+  transition: transform 0.3s ease; }
+
+main section div div .effect:hover {
+  transform: scale(1.05); }
+
+footer div div .animacion img {
+  animation-name: efecto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out; }
+
+@keyframes efecto {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0.2; } }

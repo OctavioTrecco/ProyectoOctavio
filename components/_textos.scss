@@ -1,0 +1,13 @@
+
+.texto{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin: 40px 0px;
+}
+.textopf{
+    @extend.texto;
+}
+.textoqs{
+    @extend .texto;
+}

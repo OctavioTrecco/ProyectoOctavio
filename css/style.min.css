@@ -1,8 +1,34 @@
-main section div div .effect {
+.effect {
   transition: transform 0.3s ease; }
 
-main section div div .effect:hover {
+.effect:hover {
   transform: scale(1.05); }
+
+@media screen and (max-width: 600px) {
+  .titulo h2 {
+    font-size: 6vw; }
+  .titulo h3 {
+    font-size: 6vw; }
+  .tarjetasi {
+    width: 70vw;
+    height: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%; }
+  .tarjetasi img {
+    height: 52vw; }
+  .tarjetasi h4 {
+    font-size: 5vw; }
+  .tarjetasi p {
+    font-size: 3.2vw; }
+  .boton {
+    width: 50vw;
+    padding: 0;
+    margin: 0; }
+  .boton a {
+    font-size: 3.5vw; }
+  .prod {
+    margin-top: auto; } }
 
 .logoa img {
   animation-name: efecto;
@@ -17,13 +43,32 @@ main section div div .effect:hover {
   to {
     opacity: 0.2; } }
 
-.texto, .textopf, .textoqs {
+@media screen and (max-width: 600px) {
+  .logoa img {
+    width: 17vw;
+    height: 17vw; } }
+
+.textoqs {
   font-size: 30px;
   color: black;
   text-align: left;
   margin: 40px 0px; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .textoqs {
+    font-size: 5.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw; }
+  .textopf h3 {
+    font-size: 6.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw; }
+  .textopf h4 {
+    font-size: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw; } }
+
+@media screen and (max-width: 600px) {
   .text {
     font-size: 3.5vw;
     position: absolute; }

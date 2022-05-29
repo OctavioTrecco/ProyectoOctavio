@@ -1,13 +1,26 @@
 
-.texto{
+.textoqs{
     font-size: 30px;
     color: black;
     text-align: left;
     margin: 40px 0px;
 }
-.textopf{
-    @extend.texto;
-}
-.textoqs{
-    @extend .texto;
+
+@media screen and (max-width: 600px){
+    
+    .textoqs{
+    font-size: 5.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    }
+    .textopf h3{
+        font-size: 6.5vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .textopf h4{
+        font-size: 5vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
 }

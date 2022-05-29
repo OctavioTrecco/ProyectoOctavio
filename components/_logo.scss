@@ -1,4 +1,4 @@
-@mixin log {
+.logoa img{
     animation-name: efecto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -15,6 +15,11 @@
         }
     }
 
-.logoa img{
-@include log;
+@media screen and (max-width: 600px){
+
+    .logoa img{
+        width: 17vw;
+        height: 17vw;
+    }
+
 }

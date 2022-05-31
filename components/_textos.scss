@@ -6,6 +6,27 @@
     margin: 40px 0px;
 }
 
+@media screen and (max-width: 1024px){
+
+    .textoqs{
+        font-size: 3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+        
+    .textopf h3{
+        font-size: 3.5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+     .textopf h4{
+        font-size: 3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+}
+
 @media screen and (max-width: 600px){
     
     .textoqs{

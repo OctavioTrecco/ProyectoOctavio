@@ -1,33 +1,16 @@
 
-@media screen and (max-width: 1024px){
-
-    .text{
-        font-size: 2.5vw;
-    }
-    .animacion img{
-        float: right;
-        width: 5vw;
-        height: 5vw;
-        margin: 0.3vw;
-    }
-}
-
-
-
-
 
 @media screen and (max-width: 600px){
 
-    .text{
-        font-size: 3.5vw;
-        position:absolute;
-    }
+    .text {
+        font-size: 3.3vw;
+        position: absolute;
+        margin-left: 0%;
+        padding: 0%; }
 
-    .animacion img{
+      .animacion img {
         float: right;
-        width: 10vw;
-        height: 10vw;
-        margin: 0.5vw;
-    }
+        width: 8vw;
+        height: 8vw; } 
 
 }

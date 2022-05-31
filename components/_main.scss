@@ -6,43 +6,33 @@
       transform: scale(1.05);
     }
 
+
     @media screen and (max-width: 600px){
 
-      .titulo h2{
-        font-size: 6vw;
+      .titulo h1{
+        font-size: 11.5vw;
       }
-      .titulo h3{
-        font-size: 6vw;
+      .titulo h2 {
+        font-size: 6vw; 
       }
-
-      .tarjetasi{
-          width: 70vw;
-          height: 100vw;
-          margin-left: auto; 
-          margin-right:auto; 
-          margin-top: 0%;
+      .titulo h3 {
+        font-size: 6vw; 
       }
-      .tarjetasi img{
-        height: 52vw;
+      .tarjetasi img {
+        height: 52vw; 
       }
-      .tarjetasi h4{
-        font-size: 5vw;
+      .tarjetasi h4 {
+        font-size: 5vw; 
       }
-      .tarjetasi p{
+      .tarjetasi p {
         font-size: 3.2vw;
       }
-
-      .boton{
+      .boton {
         width: 50vw;
-       padding: 0;
-       margin: 0;
+        padding: 0;
+        margin: 0; 
       }
-      .boton a{
-        font-size: 3.5vw;
+      .boton a {
+        font-size: 3.5vw; 
       }
-
-      .prod{
-        margin-top:auto;
-      }
-  
   }
